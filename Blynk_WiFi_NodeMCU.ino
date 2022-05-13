@@ -48,12 +48,12 @@ int rfid_enable = 1;
 int assistant_enable = 1;
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "-Nfyf5TuWTF49rSh_KE8DxrbFSm31l6r";
+char auth[] = "";  //Your Auth Code
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "ASUS_X00TD";
-char pass[] = "ASUS_X00TD";
+char ssid[] = "";  //Your WiFi Name
+char pass[] = "";  // Your Wifi Password
 
 
 void open_door();
